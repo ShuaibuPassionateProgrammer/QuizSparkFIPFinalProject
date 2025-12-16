@@ -1,0 +1,134 @@
+{
+    "general": [
+        {
+            "id": 1,
+            "question": "What is the largest ocean on Earth?",
+            "options": [
+                "Atlantic Ocean",
+                "Indian Ocean",
+                "Arctic Ocean",
+                "Pacific Ocean"
+            ],
+            "correctAnswer": 3,
+            "difficulty": "easy",
+            "explanation": "The Pacific Ocean is the largest and deepest ocean on Earth."
+        },
+        {
+            "id": 2,
+            "question": "Which country currently has the largest population in the world?",
+            "options": [
+                "India",
+                "China",
+                "United States",
+                "Indonesia"
+            ],
+            "correctAnswer": 0,
+            "difficulty": "medium",
+            "explanation": "India surpassed China in population, making it the most populous country."
+        },
+        {
+            "id": 3,
+            "question": "What is the hardest natural substance on Earth?",
+            "options": [
+                "Gold",
+                "Iron",
+                "Diamond",
+                "Quartz"
+            ],
+            "correctAnswer": 2,
+            "difficulty": "easy",
+            "explanation": "Diamond is the hardest known natural material due to its strong carbon bonds."
+        },
+        {
+            "id": 4,
+            "question": "Which planet in our solar system is known for its prominent rings?",
+            "options": [
+                "Mars",
+                "Jupiter",
+                "Saturn",
+                "Neptune"
+            ],
+            "correctAnswer": 2,
+            "difficulty": "easy",
+            "explanation": "Saturn is famous for its bright and extensive ring system."
+        },
+        {
+            "id": 5,
+            "question": "What is the capital city of Japan?",
+            "options": [
+                "Osaka",
+                "Tokyo",
+                "Kyoto",
+                "Nagoya"
+            ],
+            "correctAnswer": 1,
+            "difficulty": "easy",
+            "explanation": "Tokyo is the capital and most populous city of Japan."
+        },
+        {
+            "id": 6,
+            "question": "Which language is spoken by the most people worldwide?",
+            "options": [
+                "English",
+                "Spanish",
+                "Mandarin Chinese",
+                "Arabic"
+            ],
+            "correctAnswer": 2,
+            "difficulty": "medium",
+            "explanation": "Mandarin Chinese has the highest number of native speakers in the world."
+        },
+        {
+            "id": 7,
+            "question": "Who wrote the play 'Romeo and Juliet'?",
+            "options": [
+                "William Shakespeare",
+                "Charles Dickens",
+                "Jane Austen",
+                "Mark Twain"
+            ],
+            "correctAnswer": 0,
+            "difficulty": "easy",
+            "explanation": "William Shakespeare is the legendary playwright who wrote 'Romeo and Juliet'."
+        },
+        {
+            "id": 8,
+            "question": "In what year did the Titanic sink?",
+            "options": [
+                "1902",
+                "1912",
+                "1922",
+                "1899"
+            ],
+            "correctAnswer": 1,
+            "difficulty": "medium",
+            "explanation": "The Titanic tragically sank in the North Atlantic Ocean in 1912."
+        },
+        {
+            "id": 9,
+            "question": "Which continent is the Sahara Desert located on?",
+            "options": [
+                "Asia",
+                "South America",
+                "Africa",
+                "Australia"
+            ],
+            "correctAnswer": 2,
+            "difficulty": "easy",
+            "explanation": "The Sahara Desert is the largest hot desert and is located in northern Africa."
+        },
+        {
+            "id": 10,
+            "question": "What is the tallest mountain in the world?",
+            "options": [
+                "K2",
+                "Mount Kilimanjaro",
+                "Mount Everest",
+                "Makalu"
+            ],
+            "correctAnswer": 2,
+            "difficulty": "easy",
+            "explanation": "Mount Everest is the tallest mountain above sea level, standing at 8,849 meters."
+        }
+    ]
+}

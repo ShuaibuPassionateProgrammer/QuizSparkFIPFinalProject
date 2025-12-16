@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - QuizSpark</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/quiz.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <!-- Quiz Header -->
+        <header class="quiz-header">
+            <div class="quiz-info">
+                <a href="index.html" class="back-btn">← Back to Home</a>
+                <div class="quiz-title">
+                    <h2 id="categoryTitle">General Knowledge Quiz</h2>
+                    <p id="quizDescription">Test your knowledge with 10 questions</p>
+                </div>
+            </div>
+            
+            <div class="quiz-controls">
+                <div class="timer" id="timer">
+                    <span class="timer-label">Time:</span>
+                    <span class="timer-value">30s</span>
+                </div>
+                
+                <div class="score" id="score">
+                    <span class="score-label">Score:</span>
+                    <span class="score-value">0</span>
+                </div>
+                
+                <button id="endQuizBtn" class="end-btn">End Quiz</button>
+            </div>
+        </header>
+
+        <!-- Progress Bar -->
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+            <div class="progress-text" id="progressText">Question 1 of 10</div>
+        </div>
+
+        <!-- Quiz Content -->
+        <main class="quiz-content">
+            <div class="question-card" id="questionCard">
+                <div class="question-header">
+                    <span class="question-number" id="questionNumber">Q1</span>
+                    <span class="question-difficulty" id="questionDifficulty">Medium</span>
+                </div>
+                
+                <div class="question-text" id="questionText">
+                    Loading question...
+                </div>
+                
+                <!-- Loading Spinner -->
+                <div id="loadingSpinner" class="loading-spinner-container" style="display: none;">
+                    <div class="spinner"></div>
+                    <p>Loading quiz data...</p>
+                </div>
+                
+                <div class="options-grid" id="optionsContainer">
+                    <!-- Options will be dynamically generated -->
+                </div>
+                
+                <div class="question-navigation">
+                    <button id="prevBtn" class="nav-btn" disabled>← Previous</button>
+                    <button id="nextBtn" class="nav-btn">Next →</button>
+                    <button id="submitBtn" class="submit-btn">Submit Answer</button>
+                </div>
+            </div>
+            
+            <!-- Feedback Panel -->
+            <div class="feedback-panel" id="feedbackPanel">
+                <div class="feedback-header">
+                    <h4>Feedback</h4>
+                    <button id="closeFeedback">&times;</button>
+                </div>
+                <div class="feedback-content" id="feedbackContent">
+                    Select an answer to see feedback here.
+                </div>
+            </div>
+        </main>
+
+        <!-- Quiz Footer -->
+        <footer class="quiz-footer">
+            <div class="quiz-stats">
+                <div class="stat">
+                    <span class="stat-label">Correct:</span>
+                    <span class="stat-value" id="correctCount">0</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-label">Incorrect:</span>
+                    <span class="stat-value" id="incorrectCount">0</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-label">Skipped:</span>
+                    <span class="stat-value" id="skippedCount">0</span>
+                </div>
+            </div>
+            
+            <button id="reviewBtn" class="review-btn">Review Answers</button>
+        </footer>
+    </div>
+
+    <!-- Results Modal -->
+    <div id="resultsModal" class="modal">
+        <div class="modal-content">
+            <div class="results-header">
+                <h2>🎉 Quiz Completed! 🎉</h2>
+                <p>Here's how you performed</p>
+            </div>
+            
+            <div class="results-stats">
+                <div class="result-stat">
+                    <div class="stat-circle" id="scoreCircle">
+                        <span class="score-percent" id="scorePercent">0%</span>
+                    </div>
+                    <h3>Final Score</h3>
+                    <p><span id="finalScore">0</span> out of <span id="totalQuestions">10</span></p>
+                </div>
+                
+                <div class="result-details">
+                    <div class="detail">
+                        <span class="detail-label">Correct Answers:</span>
+                        <span class="detail-value" id="resultCorrect">0</span>
+                    </div>
+                    <div class="detail">
+                        <span class="detail-label">Incorrect Answers:</span>
+                        <span class="detail-value" id="resultIncorrect">0</span>
+                    </div>
+                    <div class="detail">
+                        <span class="detail-label">Time Taken:</span>
+                        <span class="detail-value" id="timeTaken">0s</span>
+                    </div>
+                    <div class="detail">
+                        <span class="detail-label">Accuracy:</span>
+                        <span class="detail-value" id="accuracy">0%</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="results-feedback" id="resultsFeedback">
+                <!-- Dynamic feedback based on score -->
+            </div>
+            
+            <div class="results-actions">
+                <button id="saveScoreBtn" class="save-btn">Save to Leaderboard</button>
+                <button id="retryBtn" class="retry-btn">Try Again</button>
+                <button id="homeBtn" class="home-btn">Back to Home</button>
+            </div>
+            
+            <div class="player-name-input" id="playerNameInput">
+                <input type="text" id="playerName" placeholder="Enter your name for leaderboard" maxlength="20">
+                <button id="saveNameBtn">Save</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/quiz.js"></script>
+</body>
+</html>

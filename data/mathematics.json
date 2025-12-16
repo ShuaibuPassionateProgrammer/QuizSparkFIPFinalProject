@@ -1,0 +1,134 @@
+{
+    "math": [
+        {
+            "id": 1,
+            "question": "What is 15% of 200?",
+            "options": [
+                "15",
+                "30",
+                "25",
+                "20"
+            ],
+            "correctAnswer": 1,
+            "difficulty": "easy",
+            "explanation": "15% of 200 is calculated as (15/100) × 200 = 30."
+        },
+        {
+            "id": 2,
+            "question": "What is the value of π (pi) to two decimal places?",
+            "options": [
+                "3.14",
+                "3.16",
+                "3.18",
+                "3.12"
+            ],
+            "correctAnswer": 0,
+            "difficulty": "easy",
+            "explanation": "The value of π rounded to two decimal places is 3.14."
+        },
+        {
+            "id": 3,
+            "question": "What is the square root of 144?",
+            "options": [
+                "10",
+                "11",
+                "12",
+                "14"
+            ],
+            "correctAnswer": 2,
+            "difficulty": "easy",
+            "explanation": "The square root of 144 is 12."
+        },
+        {
+            "id": 4,
+            "question": "What is 8 × 7?",
+            "options": [
+                "52",
+                "56",
+                "63",
+                "48"
+            ],
+            "correctAnswer": 1,
+            "difficulty": "easy",
+            "explanation": "8 multiplied by 7 equals 56."
+        },
+        {
+            "id": 5,
+            "question": "How many degrees are in a right angle?",
+            "options": [
+                "45°",
+                "90°",
+                "180°",
+                "360°"
+            ],
+            "correctAnswer": 1,
+            "difficulty": "easy",
+            "explanation": "A right angle always measures 90 degrees."
+        },
+        {
+            "id": 6,
+            "question": "What is the next prime number after 7?",
+            "options": [
+                "9",
+                "10",
+                "11",
+                "13"
+            ],
+            "correctAnswer": 2,
+            "difficulty": "medium",
+            "explanation": "11 is the next prime number after 7."
+        },
+        {
+            "id": 7,
+            "question": "What is 3² (3 squared)?",
+            "options": [
+                "3",
+                "6",
+                "9",
+                "12"
+            ],
+            "correctAnswer": 2,
+            "difficulty": "easy",
+            "explanation": "3 squared is 3 × 3 = 9."
+        },
+        {
+            "id": 8,
+            "question": "What is the perimeter of a square with side length 5?",
+            "options": [
+                "10",
+                "15",
+                "20",
+                "25"
+            ],
+            "correctAnswer": 2,
+            "difficulty": "medium",
+            "explanation": "Perimeter of a square = 4 × side = 4 × 5 = 20."
+        },
+        {
+            "id": 9,
+            "question": "What is 100 ÷ 4?",
+            "options": [
+                "20",
+                "25",
+                "30",
+                "40"
+            ],
+            "correctAnswer": 1,
+            "difficulty": "easy",
+            "explanation": "100 divided by 4 equals 25."
+        },
+        {
+            "id": 10,
+            "question": "What is the sum of the angles in a triangle?",
+            "options": [
+                "90°",
+                "180°",
+                "270°",
+                "360°"
+            ],
+            "correctAnswer": 1,
+            "difficulty": "easy",
+            "explanation": "The angles in any triangle always add up to 180 degrees."
+        }
+    ]
+}

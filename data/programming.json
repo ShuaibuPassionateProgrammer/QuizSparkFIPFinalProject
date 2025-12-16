@@ -1,0 +1,134 @@
+{
+    "programming": [
+        {
+            "id": 1,
+            "question": "What does HTML stand for?",
+            "options": [
+                "Hyper Text Markup Language",
+                "High Tech Modern Language",
+                "Hyper Transfer Markup Language",
+                "Home Tool Markup Language"
+            ],
+            "correctAnswer": 0,
+            "difficulty": "easy",
+            "explanation": "HTML stands for Hyper Text Markup Language, which is used to structure web pages."
+        },
+        {
+            "id": 2,
+            "question": "Which keyword is used to declare a variable in JavaScript?",
+            "options": [
+                "var",
+                "int",
+                "string",
+                "declare"
+            ],
+            "correctAnswer": 0,
+            "difficulty": "easy",
+            "explanation": "The 'var' keyword can declare variables, along with 'let' and 'const' in modern JavaScript."
+        },
+        {
+            "id": 3,
+            "question": "What does CSS stand for?",
+            "options": [
+                "Computer Style Sheets",
+                "Creative Style System",
+                "Cascading Style Sheets",
+                "Colorful Style Sheets"
+            ],
+            "correctAnswer": 2,
+            "difficulty": "easy",
+            "explanation": "CSS stands for Cascading Style Sheets, used for designing and styling web pages."
+        },
+        {
+            "id": 4,
+            "question": "Which method converts a JSON string into a JavaScript object?",
+            "options": [
+                "JSON.parse()",
+                "JSON.stringify()",
+                "JSON.convert()",
+                "JSON.toObject()"
+            ],
+            "correctAnswer": 0,
+            "difficulty": "medium",
+            "explanation": "JSON.parse() is used to convert a JSON string into a JavaScript object."
+        },
+        {
+            "id": 5,
+            "question": "Which symbol is used for comments in JavaScript?",
+            "options": [
+                "<!-- -->",
+                "//",
+                "/* */",
+                "#"
+            ],
+            "correctAnswer": 1,
+            "difficulty": "easy",
+            "explanation": "Single-line comments in JavaScript use //; multi-line comments use /* */."
+        },
+        {
+            "id": 6,
+            "question": "Which HTML tag is used to display an image?",
+            "options": [
+                "<pic>",
+                "<image>",
+                "<img>",
+                "<src>"
+            ],
+            "correctAnswer": 2,
+            "difficulty": "easy",
+            "explanation": "The <img> tag is used to embed images in HTML documents."
+        },
+        {
+            "id": 7,
+            "question": "Which company developed the programming language Python?",
+            "options": [
+                "Microsoft",
+                "Apple",
+                "Google",
+                "Python Software Foundation"
+            ],
+            "correctAnswer": 3,
+            "difficulty": "medium",
+            "explanation": "Python is maintained by the Python Software Foundation, though it was originally created by Guido van Rossum."
+        },
+        {
+            "id": 8,
+            "question": "Which operator is used to check strict equality in JavaScript?",
+            "options": [
+                "==",
+                "===",
+                "!=",
+                "!=="
+            ],
+            "correctAnswer": 1,
+            "difficulty": "medium",
+            "explanation": "The === operator checks both value and type for strict equality."
+        },
+        {
+            "id": 9,
+            "question": "What does API stand for?",
+            "options": [
+                "Application Programming Interface",
+                "Advanced Program Instruction",
+                "Applied Processing Input",
+                "Automated Program Interaction"
+            ],
+            "correctAnswer": 0,
+            "difficulty": "easy",
+            "explanation": "API stands for Application Programming Interface, which allows software systems to communicate."
+        },
+        {
+            "id": 10,
+            "question": "Which HTML tag is used to create a hyperlink?",
+            "options": [
+                "<link>",
+                "<a>",
+                "<href>",
+                "<hyper>"
+            ],
+            "correctAnswer": 1,
+            "difficulty": "easy",
+            "explanation": "The <a> tag defines a hyperlink, using the href attribute to specify the URL."
+        }
+    ]
+}

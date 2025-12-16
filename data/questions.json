@@ -1,0 +1,417 @@
+{
+  "general": [
+    {
+      "id": 1,
+      "question": "What is the largest ocean on Earth?",
+      "options": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+      "correctAnswer": 3,
+      "difficulty": "easy",
+      "explanation": "The Pacific Ocean is the largest and deepest ocean on Earth."
+    },
+    {
+      "id": 2,
+      "question": "Which country currently has the largest population in the world?",
+      "options": ["India", "China", "United States", "Indonesia"],
+      "correctAnswer": 0,
+      "difficulty": "medium",
+      "explanation": "India surpassed China in population, making it the most populous country."
+    },
+    {
+      "id": 3,
+      "question": "What is the hardest natural substance on Earth?",
+      "options": ["Gold", "Iron", "Diamond", "Quartz"],
+      "correctAnswer": 2,
+      "difficulty": "easy",
+      "explanation": "Diamond is the hardest known natural material due to its strong carbon bonds."
+    },
+    {
+      "id": 4,
+      "question": "Which planet in our solar system is known for its prominent rings?",
+      "options": ["Mars", "Jupiter", "Saturn", "Neptune"],
+      "correctAnswer": 2,
+      "difficulty": "easy",
+      "explanation": "Saturn is famous for its bright and extensive ring system."
+    },
+    {
+      "id": 5,
+      "question": "What is the capital city of Japan?",
+      "options": ["Osaka", "Tokyo", "Kyoto", "Nagoya"],
+      "correctAnswer": 1,
+      "difficulty": "easy",
+      "explanation": "Tokyo is the capital and most populous city of Japan."
+    },
+    {
+      "id": 6,
+      "question": "Which language is spoken by the most people worldwide?",
+      "options": ["English", "Spanish", "Mandarin Chinese", "Arabic"],
+      "correctAnswer": 2,
+      "difficulty": "medium",
+      "explanation": "Mandarin Chinese has the highest number of native speakers in the world."
+    },
+    {
+      "id": 7,
+      "question": "Who wrote the play 'Romeo and Juliet'?",
+      "options": ["William Shakespeare", "Charles Dickens", "Jane Austen", "Mark Twain"],
+      "correctAnswer": 0,
+      "difficulty": "easy",
+      "explanation": "William Shakespeare is the legendary playwright who wrote 'Romeo and Juliet'."
+    },
+    {
+      "id": 8,
+      "question": "In what year did the Titanic sink?",
+      "options": ["1902", "1912", "1922", "1899"],
+      "correctAnswer": 1,
+      "difficulty": "medium",
+      "explanation": "The Titanic tragically sank in the North Atlantic Ocean in 1912."
+    },
+    {
+      "id": 9,
+      "question": "Which continent is the Sahara Desert located on?",
+      "options": ["Asia", "South America", "Africa", "Australia"],
+      "correctAnswer": 2,
+      "difficulty": "easy",
+      "explanation": "The Sahara Desert is the largest hot desert and is located in northern Africa."
+    },
+    {
+      "id": 10,
+      "question": "What is the tallest mountain in the world?",
+      "options": ["K2", "Mount Kilimanjaro", "Mount Everest", "Makalu"],
+      "correctAnswer": 2,
+      "difficulty": "easy",
+      "explanation": "Mount Everest is the tallest mountain above sea level, standing at 8,849 meters."
+    }
+  ],
+  "science": [
+    {
+      "id": 1,
+      "question": "What is the chemical symbol for gold?",
+      "options": ["Go", "Gd", "Au", "Ag"],
+      "correctAnswer": 2,
+      "difficulty": "easy",
+      "explanation": "The chemical symbol for gold is Au, from the Latin word 'aurum'."
+    },
+    {
+      "id": 2,
+      "question": "What force keeps planets in orbit around the sun?",
+      "options": ["Magnetism", "Friction", "Gravity", "Centrifugal force"],
+      "correctAnswer": 2,
+      "difficulty": "easy",
+      "explanation": "Gravity is the force that attracts two bodies toward each other and keeps planets in orbit."
+    },
+    {
+      "id": 3,
+      "question": "What is the hardest natural substance on Earth?",
+      "options": ["Gold", "Iron", "Diamond", "Platinum"],
+      "correctAnswer": 2,
+      "difficulty": "easy",
+      "explanation": "Diamond is the hardest naturally occurring substance found on Earth."
+    },
+    {
+      "id": 4,
+      "question": "What is the speed of light in a vacuum?",
+      "options": ["300,000 km/s", "150,000 km/s", "450,000 km/s", "600,000 km/s"],
+      "correctAnswer": 0,
+      "difficulty": "medium",
+      "explanation": "The speed of light in a vacuum is approximately 300,000 kilometers per second."
+    },
+    {
+      "id": 5,
+      "question": "Which planet has the most moons?",
+      "options": ["Jupiter", "Saturn", "Uranus", "Neptune"],
+      "correctAnswer": 1,
+      "difficulty": "medium",
+      "explanation": "Saturn has the most moons of any planet in our solar system, with over 80 confirmed moons."
+    },
+    {
+      "id": 6,
+      "question": "What is the study of mushrooms called?",
+      "options": ["Mycology", "Entomology", "Ornithology", "Ichthyology"],
+      "correctAnswer": 0,
+      "difficulty": "medium",
+      "explanation": "Mycology is the branch of biology concerned with the study of fungi, including mushrooms."
+    },
+    {
+      "id": 7,
+      "question": "What is the pH of pure water at 25°C?",
+      "options": ["0", "7", "14", "10"],
+      "correctAnswer": 1,
+      "difficulty": "hard",
+      "explanation": "Pure water has a neutral pH of 7 at 25°C (77°F)."
+    },
+    {
+      "id": 8,
+      "question": "Which element has the highest melting point?",
+      "options": ["Tungsten", "Carbon", "Iron", "Platinum"],
+      "correctAnswer": 0,
+      "difficulty": "hard",
+      "explanation": "Tungsten has the highest melting point of all elements at 3,422°C (6,192°F)."
+    },
+    {
+      "id": 9,
+      "question": "What is the fundamental particle responsible for carrying electromagnetic force?",
+      "options": ["Neutron", "Photon", "Electron", "Proton"],
+      "correctAnswer": 1,
+      "difficulty": "hard",
+      "explanation": "Photons are the fundamental particles that carry electromagnetic force."
+    },
+    {
+      "id": 10,
+      "question": "What is the name of the theoretical boundary around a black hole beyond which nothing can escape?",
+      "options": ["Event horizon", "Absolute horizon", "Cosmic horizon", "Particle horizon"],
+      "correctAnswer": 0,
+      "difficulty": "hard",
+      "explanation": "The event horizon is the boundary around a black hole beyond which nothing, not even light, can escape."
+    }
+  ],
+  "programming": [
+    {
+      "id": 1,
+      "question": "What does HTML stand for?",
+      "options": [
+        "Hyper Text Markup Language",
+        "High Tech Modern Language",
+        "Hyper Transfer Markup Language",
+        "Home Tool Markup Language"
+      ],
+      "correctAnswer": 0,
+      "difficulty": "easy",
+      "explanation": "HTML stands for Hyper Text Markup Language, the standard markup language for web pages."
+    },
+    {
+      "id": 2,
+      "question": "Which programming language is known for its use in data science and machine learning?",
+      "options": ["Java", "Python", "C++", "Ruby"],
+      "correctAnswer": 1,
+      "difficulty": "easy",
+      "explanation": "Python is widely used in data science and machine learning due to its simplicity and powerful libraries."
+    },
+    {
+      "id": 3,
+      "question": "What is the file extension for a JavaScript file?",
+      "options": [".java", ".js", ".jsx", ".j"],
+      "correctAnswer": 1,
+      "difficulty": "easy",
+      "explanation": "JavaScript files typically have the .js file extension."
+    },
+    {
+      "id": 4,
+      "question": "In CSS, what does the '#' symbol denote?",
+      "options": ["Class selector", "Element selector", "ID selector", "Universal selector"],
+      "correctAnswer": 2,
+      "difficulty": "medium",
+      "explanation": "In CSS, the '#' symbol is used to select elements by their ID attribute."
+    },
+    {
+      "id": 5,
+      "question": "Which of these is NOT a programming paradigm?",
+      "options": ["Object-oriented", "Functional", "Declarative", "Flavorful"],
+      "correctAnswer": 3,
+      "difficulty": "medium",
+      "explanation": "Flavorful is not a recognized programming paradigm, while the others are established approaches to programming."
+    },
+    {
+      "id": 6,
+      "question": "What is the time complexity of binary search?",
+      "options": ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
+      "correctAnswer": 1,
+      "difficulty": "medium",
+      "explanation": "Binary search has a time complexity of O(log n) because it halves the search space with each iteration."
+    },
+    {
+      "id": 7,
+      "question": "Which HTTP status code indicates 'Not Found'?",
+      "options": ["500", "403", "404", "400"],
+      "correctAnswer": 2,
+      "difficulty": "hard",
+      "explanation": "HTTP status code 404 indicates that the requested resource could not be found on the server."
+    },
+    {
+      "id": 8,
+      "question": "What is the design principle that states 'a class should have only one reason to change'?",
+      "options": ["Single Responsibility Principle", "Open/Closed Principle", "Liskov Substitution Principle", "Interface Segregation Principle"],
+      "correctAnswer": 0,
+      "difficulty": "hard",
+      "explanation": "The Single Responsibility Principle (SRP) states that a class should have only one reason to change, meaning it should have only one job."
+    },
+    {
+      "id": 9,
+      "question": "In Git, what command is used to combine multiple commits into a single commit?",
+      "options": ["git merge", "git rebase", "git squash", "git commit --amend"],
+      "correctAnswer": 2,
+      "difficulty": "hard",
+      "explanation": "Git squash is used to combine multiple commits into a single commit, typically during a rebase operation."
+    },
+    {
+      "id": 10,
+      "question": "What is the term for a function that calls itself?",
+      "options": ["Iterative function", "Recursive function", "Callback function", "Anonymous function"],
+      "correctAnswer": 1,
+      "difficulty": "hard",
+      "explanation": "A recursive function is a function that calls itself in order to solve a problem by breaking it down into smaller instances."
+    }
+  ],
+  "history": [
+    {
+      "id": 1,
+      "question": "In which year did the Titanic sink?",
+      "options": ["1910", "1912", "1914", "1916"],
+      "correctAnswer": 1,
+      "difficulty": "easy",
+      "explanation": "The RMS Titanic sank on April 15, 1912, after hitting an iceberg during its maiden voyage."
+    },
+    {
+      "id": 2,
+      "question": "Who was the first President of the United States?",
+      "options": ["Thomas Jefferson", "John Adams", "George Washington", "Abraham Lincoln"],
+      "correctAnswer": 2,
+      "difficulty": "easy",
+      "explanation": "George Washington was the first President of the United States, serving from 1789 to 1797."
+    },
+    {
+      "id": 3,
+      "question": "Which ancient wonder of the world was located in Alexandria, Egypt?",
+      "options": ["Hanging Gardens of Babylon", "Colossus of Rhodes", "Lighthouse of Alexandria", "Temple of Artemis"],
+      "correctAnswer": 2,
+      "difficulty": "easy",
+      "explanation": "The Lighthouse of Alexandria (Pharos of Alexandria) was one of the Seven Wonders of the Ancient World."
+    },
+    {
+      "id": 4,
+      "question": "Which war was fought between the North and South regions of the United States?",
+      "options": ["World War I", "Revolutionary War", "Civil War", "War of 1812"],
+      "correctAnswer": 2,
+      "difficulty": "medium",
+      "explanation": "The American Civil War was fought from 1861 to 1865 between the Union (North) and the Confederacy (South)."
+    },
+    {
+      "id": 5,
+      "question": "Who painted the ceiling of the Sistine Chapel?",
+      "options": ["Leonardo da Vinci", "Raphael", "Donatello", "Michelangelo"],
+      "correctAnswer": 3,
+      "difficulty": "medium",
+      "explanation": "Michelangelo painted the ceiling of the Sistine Chapel between 1508 and 1512."
+    },
+    {
+      "id": 6,
+      "question": "In which country was the famous Battle of Waterloo fought?",
+      "options": ["France", "Belgium", "Germany", "Netherlands"],
+      "correctAnswer": 1,
+      "difficulty": "medium",
+      "explanation": "The Battle of Waterloo was fought in present-day Belgium on June 18, 1815."
+    },
+    {
+      "id": 7,
+      "question": "Which dynasty built the Great Wall of China?",
+      "options": ["Tang Dynasty", "Ming Dynasty", "Qin Dynasty", "Song Dynasty"],
+      "correctAnswer": 2,
+      "difficulty": "hard",
+      "explanation": "The Qin Dynasty, under Emperor Qin Shi Huang, began construction of the Great Wall of China around 221 BCE."
+    },
+    {
+      "id": 8,
+      "question": "What was the name of the ship that brought the Pilgrims to America in 1620?",
+      "options": ["Santa Maria", "Mayflower", "Victoria", "Endeavour"],
+      "correctAnswer": 1,
+      "difficulty": "hard",
+      "explanation": "The Mayflower was the ship that transported the Pilgrims from England to Plymouth, Massachusetts in 1620."
+    },
+    {
+      "id": 9,
+      "question": "Which treaty officially ended World War I?",
+      "options": ["Treaty of Versailles", "Treaty of Paris", "Treaty of Ghent", "Treaty of Tordesillas"],
+      "correctAnswer": 0,
+      "difficulty": "hard",
+      "explanation": "The Treaty of Versailles, signed on June 28, 1919, officially ended World War I."
+    },
+    {
+      "id": 10,
+      "question": "Who was the Byzantine Emperor responsible for commissioning the massive legal code known as the Corpus Juris Civilis?",
+      "options": ["Constantine I", "Justinian I", "Basil II", "Leo III"],
+      "correctAnswer": 1,
+      "difficulty": "hard",
+      "explanation": "Emperor Justinian I commissioned the Corpus Juris Civilis (Body of Civil Law) in the 6th century CE."
+    }
+  ],
+  "math": [
+    {
+      "id": 1,
+      "question": "What is the value of π (pi) rounded to two decimal places?",
+      "options": ["3.14", "3.16", "3.12", "3.18"],
+      "correctAnswer": 0,
+      "difficulty": "easy",
+      "explanation": "Pi (π) is approximately 3.14159..., which rounds to 3.14 when rounded to two decimal places."
+    },
+    {
+      "id": 2,
+      "question": "What is 15% of 200?",
+      "options": ["25", "30", "35", "40"],
+      "correctAnswer": 1,
+      "difficulty": "easy",
+      "explanation": "15% of 200 = 0.15 × 200 = 30."
+    },
+    {
+      "id": 3,
+      "question": "What is the square root of 144?",
+      "options": ["10", "12", "14", "16"],
+      "correctAnswer": 1,
+      "difficulty": "easy",
+      "explanation": "The square root of 144 is 12, since 12 × 12 = 144."
+    },
+    {
+      "id": 4,
+      "question": "If a triangle has angles of 30° and 60°, what is the measure of the third angle?",
+      "options": ["90°", "120°", "45°", "75°"],
+      "correctAnswer": 0,
+      "difficulty": "medium",
+      "explanation": "The sum of angles in a triangle is 180°. So the third angle is 180° - 30° - 60° = 90°."
+    },
+    {
+      "id": 5,
+      "question": "What is the derivative of x²?",
+      "options": ["x", "2x", "x²", "2"],
+      "correctAnswer": 1,
+      "difficulty": "medium",
+      "explanation": "Using the power rule, the derivative of x² is 2x."
+    },
+    {
+      "id": 6,
+      "question": "What is the next number in the Fibonacci sequence: 1, 1, 2, 3, 5, 8, 13, ...?",
+      "options": ["18", "21", "23", "25"],
+      "correctAnswer": 1,
+      "difficulty": "medium",
+      "explanation": "In the Fibonacci sequence, each number is the sum of the two preceding ones. So 8 + 13 = 21."
+    },
+    {
+      "id": 7,
+      "question": "What is the integral of 2x dx?",
+      "options": ["x² + C", "2x² + C", "x + C", "x²/2 + C"],
+      "correctAnswer": 0,
+      "difficulty": "hard",
+      "explanation": "The integral of 2x dx is x² + C, where C is the constant of integration."
+    },
+    {
+      "id": 8,
+      "question": "What is the determinant of the 2×2 matrix [[3, 2], [1, 4]]?",
+      "options": ["10", "12", "8", "14"],
+      "correctAnswer": 0,
+      "difficulty": "hard",
+      "explanation": "For a 2×2 matrix [[a, b], [c, d]], the determinant is ad - bc. So (3×4) - (2×1) = 12 - 2 = 10."
+    },
+    {
+      "id": 9,
+      "question": "What is Euler's identity, often considered the most beautiful equation in mathematics?",
+      "options": ["e^(iπ) + 1 = 0", "e^(iπ) = 1", "e^(iπ) - 1 = 0", "e^(iπ) = -1"],
+      "correctAnswer": 0,
+      "difficulty": "hard",
+      "explanation": "Euler's identity is e^(iπ) + 1 = 0, which elegantly connects five fundamental mathematical constants."
+    },
+    {
+      "id": 10,
+      "question": "What is the limit of (sin x)/x as x approaches 0?",
+      "options": ["0", "1", "∞", "Undefined"],
+      "correctAnswer": 1,
+      "difficulty": "hard",
+      "explanation": "The limit of (sin x)/x as x approaches 0 is 1, a fundamental result in calculus."
+    }
+  ]
+}

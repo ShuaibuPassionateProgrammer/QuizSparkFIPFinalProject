@@ -1,0 +1,134 @@
+{
+    "science": [
+        {
+            "id": 1,
+            "question": "What is the basic unit of life in all living organisms?",
+            "options": [
+                "Atom",
+                "Cell",
+                "Tissue",
+                "Molecule"
+            ],
+            "correctAnswer": 1,
+            "difficulty": "easy",
+            "explanation": "The cell is the fundamental structural and functional unit of all living organisms."
+        },
+        {
+            "id": 2,
+            "question": "What force keeps planets in orbit around the Sun?",
+            "options": [
+                "Magnetism",
+                "Friction",
+                "Gravity",
+                "Electricity"
+            ],
+            "correctAnswer": 2,
+            "difficulty": "easy",
+            "explanation": "Gravity is the force that attracts objects toward one another, keeping planets in orbit around the Sun."
+        },
+        {
+            "id": 3,
+            "question": "Which gas is most abundant in the Earth's atmosphere?",
+            "options": [
+                "Oxygen",
+                "Nitrogen",
+                "Carbon Dioxide",
+                "Hydrogen"
+            ],
+            "correctAnswer": 1,
+            "difficulty": "easy",
+            "explanation": "Nitrogen makes up about 78% of Earth's atmosphere, making it the most abundant gas."
+        },
+        {
+            "id": 4,
+            "question": "What is the fastest land animal in the world?",
+            "options": [
+                "Cheetah",
+                "Lion",
+                "Horse",
+                "Greyhound"
+            ],
+            "correctAnswer": 0,
+            "difficulty": "easy",
+            "explanation": "The cheetah is the fastest land animal, capable of reaching speeds up to 70 mph (113 km/h)."
+        },
+        {
+            "id": 5,
+            "question": "Which planet is known as the 'Red Planet'?",
+            "options": [
+                "Venus",
+                "Mars",
+                "Jupiter",
+                "Saturn"
+            ],
+            "correctAnswer": 1,
+            "difficulty": "easy",
+            "explanation": "Mars is called the Red Planet because iron oxide (rust) on its surface gives it a reddish appearance."
+        },
+        {
+            "id": 6,
+            "question": "What does CPU stand for in computers?",
+            "options": [
+                "Central Process Unit",
+                "Computer Processing Utility",
+                "Central Processing Unit",
+                "Control Program Unit"
+            ],
+            "correctAnswer": 2,
+            "difficulty": "medium",
+            "explanation": "The CPU, or Central Processing Unit, is the primary component responsible for executing instructions in a computer."
+        },
+        {
+            "id": 7,
+            "question": "Which scientist proposed the theory of general relativity?",
+            "options": [
+                "Isaac Newton",
+                "Albert Einstein",
+                "Nikola Tesla",
+                "Marie Curie"
+            ],
+            "correctAnswer": 1,
+            "difficulty": "medium",
+            "explanation": "Albert Einstein introduced the theory of general relativity, describing gravity as the curvature of spacetime."
+        },
+        {
+            "id": 8,
+            "question": "What part of the human body is responsible for pumping blood?",
+            "options": [
+                "Brain",
+                "Lungs",
+                "Heart",
+                "Liver"
+            ],
+            "correctAnswer": 2,
+            "difficulty": "easy",
+            "explanation": "The heart pumps blood throughout the body, supplying organs with oxygen and nutrients."
+        },
+        {
+            "id": 9,
+            "question": "What is the primary function of photosynthesis?",
+            "options": [
+                "To absorb minerals",
+                "To produce oxygen",
+                "To convert light energy into chemical energy",
+                "To create soil nutrients"
+            ],
+            "correctAnswer": 2,
+            "difficulty": "medium",
+            "explanation": "Photosynthesis converts sunlight into chemical energy, producing glucose and oxygen."
+        },
+        {
+            "id": 10,
+            "question": "Which device is used to measure temperature?",
+            "options": [
+                "Barometer",
+                "Thermometer",
+                "Hygrometer",
+                "Altimeter"
+            ],
+            "correctAnswer": 1,
+            "difficulty": "easy",
+            "explanation": "A thermometer is a device used to measure temperature."
+        }
+    ]
+}

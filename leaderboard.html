@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard - QuizSpark</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/quiz.css">
+</head>
+<body>
+    <div class="leaderboard-container">
+        <!-- Header -->
+        <header class="leaderboard-header">
+            <div class="header-content">
+                <a href="index.html" class="back-btn">← Back to Home</a>
+                <h1>🏆 QuizSpark Leaderboard</h1>
+                <p class="subtitle">Top performers across all categories</p>
+            </div>
+            
+            <div class="filter-controls">
+                <div class="filter-group">
+                    <label for="categoryFilter">Category:</label>
+                    <select id="categoryFilter">
+                        <option value="all">All Categories</option>
+                        <option value="general">General Knowledge</option>
+                        <option value="science">Science & Tech</option>
+                        <option value="programming">Programming</option>
+                        <option value="history">History</option>
+                        <option value="math">Mathematics</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="timeFilter">Time Period:</label>
+                    <select id="timeFilter">
+                        <option value="all">All Time</option>
+                        <option value="today">Today</option>
+                        <option value="week">This Week</option>
+                        <option value="month">This Month</option>
+                    </select>
+                </div>
+                
+                <button id="resetScores" class="reset-btn">Reset Scores</button>
+            </div>
+        </header>
+
+        <!-- Leaderboard Content -->
+        <main class="leaderboard-content">
+            <!-- Top 3 Podium -->
+            <div class="podium">
+                <div class="podium-place second">
+                    <div class="podium-rank">🥈</div>
+                    <div class="podium-player" id="secondPlace">
+                        <span class="player-name">Loading...</span>
+                        <span class="player-score">0</span>
+                    </div>
+                </div>
+                
+                <div class="podium-place first">
+                    <div class="podium-rank">🥇</div>
+                    <div class="podium-player" id="firstPlace">
+                        <span class="player-name">Loading...</span>
+                        <span class="player-score">0</span>
+                    </div>
+                </div>
+                
+                <div class="podium-place third">
+                    <div class="podium-rank">🥉</div>
+                    <div class="podium-player" id="thirdPlace">
+                        <span class="player-name">Loading...</span>
+                        <span class="player-score">0</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Full Leaderboard Table -->
+            <div class="leaderboard-table-container">
+                <div class="table-header">
+                    <h3>Complete Leaderboard</h3>
+                    <div class="table-stats">
+                        <span class="stat">Total Players: <span id="totalPlayers">0</span></span>
+                        <span class="stat">Average Score: <span id="averageScore">0</span></span>
+                    </div>
+                </div>
+                
+                <div class="leaderboard-table">
+                    <div class="table-row header">
+                        <div class="cell rank">Rank</div>
+                        <div class="cell player">Player</div>
+                        <div class="cell category">Category</div>
+                        <div class="cell score">Score</div>
+                        <div class="cell time">Time</div>
+                        <div class="cell date">Date</div>
+                    </div>
+                    <div class="table-body" id="leaderboardBody">
+                        <!-- Leaderboard entries will be dynamically added -->
+                    </div>
+                </div>
+                
+                <div class="pagination">
+                    <button id="prevPage" class="page-btn" disabled>← Previous</button>
+                    <span class="page-info">Page <span id="currentPage">1</span> of <span id="totalPages">1</span></span>
+                    <button id="nextPage" class="page-btn">Next →</button>
+                </div>
+            </div>
+
+            <!-- Personal Stats (if available) -->
+            <div class="personal-stats" id="personalStats">
+                <h3>Your Statistics</h3>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-value" id="personalBest">0</div>
+                        <div class="stat-label">Personal Best</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="totalQuizzes">0</div>
+                        <div class="stat-label">Quizzes Taken</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="avgPersonalScore">0</div>
+                        <div class="stat-label">Average Score</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="personalRank">-</div>
+                        <div class="stat-label">Global Rank</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Achievement Badges -->
+            <div class="achievements">
+                <h3>🏅 Achievements</h3>
+                <div class="badges-grid" id="badgesGrid">
+                    <!-- Badges will be dynamically added -->
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="leaderboard-footer">
+            <div class="footer-content">
+                <p>Challenge yourself and climb to the top! 🚀</p>
+                <a href="quiz.html?category=general" class="take-quiz-btn">Take a New Quiz</a>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Delete Confirmation Modal -->
+    <div id="deleteModal" class="modal">
+        <div class="modal-content delete-modal">
+            <h3>⚠️ Reset All Scores?</h3>
+            <p>This will permanently delete all leaderboard data. This action cannot be undone.</p>
+            <div class="modal-actions">
+                <button id="confirmDelete" class="danger-btn">Yes, Delete All</button>
+                <button id="cancelDelete" class="cancel-btn">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/leaderboard.js"></script>
+</body>
+</html>

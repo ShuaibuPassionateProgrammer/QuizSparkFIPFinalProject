@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizSpark - Interactive Quiz System</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <h1>🎯 QuizSpark</h1>
+                <p class="tagline">Ignite Your Knowledge</p>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Test Your Knowledge & Challenge Your Friends!</h2>
+                <p>An interactive quiz system with multiple categories, timer, and leaderboard. Ready to prove your
+                    skills?</p>
+
+                <div class="stats">
+                    <div class="stat">
+                        <span class="number">50+</span>
+                        <span class="label">Questions</span>
+                    </div>
+                    <div class="stat">
+                        <span class="number">5</span>
+                        <span class="label">Categories</span>
+                    </div>
+                    <div class="stat">
+                        <span class="number">∞</span>
+                        <span class="label">Attempts</span>
+                    </div>
+                </div>
+
+                <div class="cta-section">
+                    <button class="btn btn-primary" onclick="window.startQuiz('general')">Start Quick Quiz 🚀</button>
+                    <p class="cta-subtext">or choose a category below</p>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="quiz-card-preview">
+                    <div class="preview-header">
+                        <span class="preview-category">General Knowledge</span>
+                        <span class="preview-timer">⏱️ 30s</span>
+                    </div>
+                    <div class="preview-question">What is the capital of France?</div>
+                    <div class="preview-options">
+                        <button class="preview-option">London</button>
+                        <button class="preview-option correct">Paris</button>
+                        <button class="preview-option">Berlin</button>
+                        <button class="preview-option">Madrid</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Categories Section -->
+        <section class="categories">
+            <h3>Choose Your Category</h3>
+            <div class="category-grid">
+                <div class="category-card" data-category="general">
+                    <div class="category-icon">🌍</div>
+                    <h4>General Knowledge</h4>
+                    <p>Test your world knowledge</p>
+                    <div class="category-stats">
+                        <span class="stat-item">🔥 Popular</span>
+                    </div>
+                    <button class="category-btn" onclick="window.startQuiz('general')">Start Quiz</button>
+                </div>
+
+                <div class="category-card" data-category="science">
+                    <div class="category-icon">🔬</div>
+                    <h4>Science & Technology</h4>
+                    <p>Explore scientific concepts</p>
+                    <div class="category-stats">
+                        <span class="stat-item">💡 10+ Questions</span>
+                    </div>
+                    <button class="category-btn" onclick="window.startQuiz('science')">Start Quiz</button>
+                </div>
+
+                <div class="category-card" data-category="programming">
+                    <div class="category-icon">💻</div>
+                    <h4>Programming</h4>
+                    <p>Challenge your coding skills</p>
+                    <div class="category-stats">
+                        <span class="stat-item">🚀 Technical</span>
+                    </div>
+                    <button class="category-btn" onclick="window.startQuiz('programming')">Start Quiz</button>
+                </div>
+
+                <div class="category-card" data-category="history">
+                    <div class="category-icon">📜</div>
+                    <h4>History</h4>
+                    <p>Journey through time</p>
+                    <div class="category-stats">
+                        <span class="stat-item">🏛️ Educational</span>
+                    </div>
+                    <button class="category-btn" onclick="window.startQuiz('history')">Start Quiz</button>
+                </div>
+
+                <div class="category-card" data-category="math">
+                    <div class="category-icon">🧮</div>
+                    <h4>Mathematics</h4>
+                    <p>Solve numerical challenges</p>
+                    <div class="category-stats">
+                        <span class="stat-item">📐 Brain Teasers</span>
+                    </div>
+                    <button class="category-btn" onclick="window.startQuiz('math')">Start Quiz</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features">
+            <h3>Why Choose QuizSpark?</h3>
+            <div class="features-grid">
+                <div class="feature">
+                    <div class="feature-icon">⏱️</div>
+                    <h4>Timed Quizzes</h4>
+                    <p>Challenge yourself with timed questions for extra excitement.</p>
+                </div>
+
+                <div class="feature">
+                    <div class="feature-icon">📊</div>
+                    <h4>Instant Results</h4>
+                    <p>Get immediate feedback with detailed score breakdown.</p>
+                </div>
+
+                <div class="feature">
+                    <div class="feature-icon">🏆</div>
+                    <h4>Leaderboard</h4>
+                    <p>Compete with others and track your progress on the leaderboard.</p>
+                </div>
+
+                <div class="feature">
+                    <div class="feature-icon">📱</div>
+                    <h4>Responsive Design</h4>
+                    <p>Perfect experience on desktop, tablet and mobile devices.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Leaderboard Preview -->
+        <section class="leaderboard-preview">
+            <div class="leaderboard-header">
+                <h3>🏆 Current Leaders</h3>
+                <a href="leaderboard.html" class="view-all">View All →</a>
+            </div>
+            <div class="leaderboard-table">
+                <div class="leaderboard-row header">
+                    <span class="rank">Rank</span>
+                    <span class="name">Player</span>
+                    <span class="score">Score</span>
+                    <span class="time">Time</span>
+                </div>
+                <!-- Will be populated by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container footer-content">
+                <div class="footer-logo">
+                    <h3>QuizSpark</h3>
+                    <p>Ignite your knowledge with our interactive quiz platform. Challenge yourself and learn something
+                        new every day.</p>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="quiz.html?category=general">Take a Quiz</a>
+                    <a href="leaderboard.html">Leaderboard</a>
+                    <a href="#features">Features</a>
+                </div>
+
+                <div class="footer-info">
+                    <p>Designed for learning, growth, and continuous improvement</p>
+                    <p>Developed by Ibrahim Shuaibu Isa</p>
+                    <p class="copyright">©
+                        <script>document.write(new Date().getFullYear());</script> QuizSpark. All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Start Quiz Modal -->
+    <div id="startModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Ready to Start?</h3>
+            <div class="quiz-settings">
+                <div class="setting">
+                    <label for="numQuestions">Number of Questions:</label>
+                    <select id="numQuestions">
+                        <option value="5">5 Questions</option>
+                        <option value="10" selected>10 Questions</option>
+                        <option value="15">15 Questions</option>
+                        <option value="20">20 Questions</option>
+                    </select>
+                </div>
+
+                <div class="setting">
+                    <label for="timer">Enable Timer:</label>
+                    <label class="switch">
+                        <input type="checkbox" id="timerToggle" checked>
+                        <span class="slider"></span>
+                    </label>
+                    <span id="timerValue">30 seconds per question</span>
+                </div>
+
+                <div class="setting">
+                    <label for="difficulty">Difficulty:</label>
+                    <select id="difficulty">
+                        <option value="easy">Easy</option>
+                        <option value="medium" selected>Medium</option>
+                        <option value="hard">Hard</option>
+                    </select>
+                </div>
+            </div>
+            <button id="startQuizBtn" class="start-btn">Start Quiz Now!</button>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
