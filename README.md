@@ -1,130 +1,123 @@
-# QuizSpark - Interactive Quiz System
+# QuizSpark - Student Quiz System 🎯
 
-QuizSpark is a modern, responsive quiz application built with vanilla JavaScript, HTML, and CSS. It features multiple quiz categories, timed quizzes, detailed scoring, and a leaderboard system.
+## 🚀 Live Demo
+[View Live Project](https://yourusername.github.io/QuizSpark-Final-Project/)
 
-## Features
+## 📋 Project Overview
+QuizSpark is an interactive quiz web application designed for students to practice self-assessment through multiple-choice questions. The app mimics Distinction's gamified quiz approach, reinforcing logic building and event-driven programming.
 
-- **Multiple Quiz Categories**: General Knowledge, Science & Technology, Programming, History, and Mathematics
-- **Customizable Quiz Settings**: Choose number of questions, enable/disable timer, and set difficulty level
-- **Timed Quizzes**: Optional timer for added challenge
-- **Detailed Feedback**: Immediate feedback with explanations for each question
-- **Leaderboard System**: Track top scores with filtering options
-- **Achievements**: Unlock badges based on quiz performance
-- **Responsive Design**: Works on desktop, tablet, and mobile devices
-- **Offline Support**: Uses localStorage for data persistence
+### 🎯 **Project Goal**
+Create a dynamic quiz web app that tests user knowledge through multiple-choice questions and displays results with feedback.
+
+### 👥 **Target Audience**
+- Students practicing self-assessment quizzes
+- Learners preparing for exams
+- Anyone looking to test their knowledge in various subjects
+
+## ✨ **Features**
+
+### ✅ **Core Features**
+- **Multiple-choice question display** with beautiful card layout
+- **Score tracker** with real-time updates
+- **Timer functionality** (optional per question)
+- **Leaderboard** using LocalStorage
+- **Progress bar** showing quiz completion
+- **Final results modal** with detailed feedback
+- **Responsive design** for desktop and mobile
+- **Three color themes** from specified palettes
+
+### 🎮 **Advanced Features**
+- **Category selection** (5 categories)
+- **Difficulty levels** (Easy, Medium, Hard)
+- **Question randomization**
+- **Instant feedback** with explanations
+- **Quiz history** and personal statistics
+- **Achievement badges**
+- **Text-to-speech** functionality
+- **Export data** capability
+- **Keyboard shortcuts** for better UX
+
+## 🎨 **Color Palette Used**
+**Palette 1: Professional Theme**
+- Primary: `#8ECAE6` (Light Blue)
+- Secondary: `#219EBC` (Blue)
+- Dark: `#023047` (Dark Blue)
+- Accent 1: `#FFB703` (Yellow)
+- Accent 2: `#FB8500` (Orange)
+
+*Using 2 colors as required: #8ECAE6 and #219EBC*
+
+## 🛠 **Technologies Used**
+
+### Frontend
+- **HTML5** - Semantic markup
+- **CSS3** - Custom properties, Grid, Flexbox, Animations
+- **JavaScript (ES6+)** - Vanilla JS with OOP principles
+
+### APIs & Storage
+- **Web Storage API** - Leaderboard persistence
+- **Web Speech API** - Text-to-speech functionality
+- **Clipboard API** - Copy to clipboard
+
+### Tools & Methodologies
+- **Mobile-First Design** - Responsive approach
+- **CSS Variables** - Theme switching
+- **Modular JavaScript** - Clean code architecture
+- **Git & GitHub** - Version control
+- **GitHub Pages** - Free hosting
+
+## 📁 **Project Structure**
 
 ## Project Structure
 
 ```
-QuizSpark/
-├── assets/
-│   ├── images/
-│   └── screenshots/
+QuizSparkFIPFinalProject/
+├── index.html # Home page
+├── quiz.html # Quiz interface
+├── leaderboard.html # Leaderboard page
 ├── css/
-│   ├── quiz.css
-│   └── style.css
-├── data/
-│   └── questions.json
+│ ├── style.css # Main styles
+│ └── quiz.css # Quiz-specific styles
 ├── js/
-│   ├── leaderboard.js
-│   ├── main.js
-│   ├── quiz.js
-│   └── utils.js
-├── index.html
-├── quiz.html
-├── leaderboard.html
-└── README.md
+│ ├── main.js # Home page logic
+│ ├── quiz.js # Quiz logic
+│ ├── leaderboard.js # Leaderboard logic
+│ └── utils.js # Utility functions
+├── data/
+│ └── questions.json # Quiz questions database
+├── assets/
+│ └── screenshots/ # Project screenshots
+├── docs/
+│ ├── documentation.pdf # Project documentation
+│ └── presentation.pdf # Presentation slides
+└── README.md # This file
 ```
 
-## Getting Started
 
-1. Clone or download the repository
-2. Open `index.html` in a web browser
-3. Start taking quizzes!
+## 🎯 **Learning Outcomes Demonstrated**
 
-No build process or dependencies required - it's pure vanilla JavaScript!
+### Technical Skills
+1. **DOM Manipulation** - Dynamic content updates
+2. **Event Handling** - User interactions and feedback
+3. **Local Storage** - Data persistence for leaderboard
+4. **CSS Grid & Flexbox** - Responsive layouts
+5. **JavaScript Classes** - Object-oriented programming
+6. **Async Programming** - Timers and animations
+7. **API Integration** - Web Speech and Clipboard APIs
+8. **Error Handling** - Graceful error recovery
+9. **Performance Optimization** - Efficient rendering
 
-## How It Works
+### Soft Skills
+1. **Problem Solving** - Algorithm design for scoring
+2. **UX/UI Design** - Intuitive user interface
+3. **Project Planning** - Feature implementation roadmap
+4. **Documentation** - Clear code comments and README
+5. **Presentation** - Project demonstration skills
 
-### Main Components
+## 🚀 **Setup & Installation**
 
-1. **Home Page (`index.html`)**: Entry point with category selection and quiz settings
-2. **Quiz Page (`quiz.html`)**: Interactive quiz interface with timer and navigation
-3. **Leaderboard Page (`leaderboard.html`)**: Score tracking with filtering and achievements
-
-### Data Storage
-
-All data is stored in the browser's localStorage:
-- Quiz settings
-- Leaderboard scores
-- User preferences
-
-### JavaScript Modules
-
-- **main.js**: Controls the home page and quiz initialization
-- **quiz.js**: Manages quiz logic, timing, and scoring
-- **leaderboard.js**: Handles score tracking and display
-- **utils.js**: Utility functions for common operations
-
-## Security Features
-
-- Input sanitization for player names
-- XSS prevention through safe DOM manipulation
-- Data validation for all user inputs
-
-## Customization
-
-### Adding Questions
-
-Edit `data/questions.json` to add new questions. Each question should have:
-- `id`: Unique identifier
-- `question`: The question text
-- `options`: Array of answer choices
-- `correctAnswer`: Index of the correct answer (0-based)
-- `difficulty`: Difficulty level (easy, medium, hard)
-- `explanation`: Detailed explanation of the correct answer
-
-### Styling
-
-Modify the CSS files to change the appearance:
-- `css/style.css`: General site styling
-- `css/quiz.css`: Quiz-specific styling
-
-## Browser Support
-
-QuizSpark works in all modern browsers that support:
-- localStorage
-- ES6 JavaScript features
-- CSS3 features
-
-## Development
-
-### Code Quality
-
-- Consistent naming conventions
-- Modular architecture
-- JSDoc-style comments
-- Error handling and validation
-
-### Performance Optimizations
-
-- Efficient DOM manipulation
-- Event delegation where appropriate
-- Minimal reflows and repaints
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-
-- Icons from EmojiOne
-- Design inspiration from modern quiz applications
+### Local Development
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/ShuaibuPassionateProgrammer/QuizSparkFIPFinalProject.git
+   cd QuizSparkFIPFinalProject
