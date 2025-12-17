@@ -111,11 +111,11 @@ Explore the application flow from login to leaderboard.
   <img src="assets/screenshots/Screenshot from 2025-12-16 16-41-50.png" width="45%" alt="Screenshot 7">
   <img src="assets/screenshots/Screenshot from 2025-12-16 16-41-56.png" width="45%" alt="Screenshot 8">
   <img src="assets/screenshots/Screenshot from 2025-12-16 16-42-26.png" width="45%" alt="Screenshot 9">
-  <img src="assets/screenshots/Screenshot from 2025-12-16 16-42-33.png" width="45%" alt="Screenshot 10">
+  <!-- <img src="assets/screenshots/Screenshot from 2025-12-16 16-42-33.png" width="45%" alt="Screenshot 10"> -->
   <img src="assets/screenshots/Screenshot from 2025-12-16 16-42-39.png" width="45%" alt="Screenshot 11">
-  <img src="assets/screenshots/Screenshot from 2025-12-16 16-42-43.png" width="45%" alt="Screenshot 12">
+  <!-- <img src="assets/screenshots/Screenshot from 2025-12-16 16-42-43.png" width="45%" alt="Screenshot 12"> -->
   <img src="assets/screenshots/Screenshot from 2025-12-16 16-42-57.png" width="45%" alt="Screenshot 13">
-  <img src="assets/screenshots/Screenshot from 2025-12-16 16-43-03.png" width="45%" alt="Screenshot 14">
+  <!-- <img src="assets/screenshots/Screenshot from 2025-12-16 16-43-03.png" width="45%" alt="Screenshot 14"> -->
 </div>
 
 
