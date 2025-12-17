@@ -70,6 +70,13 @@ Create a dynamic quiz web app that tests user knowledge through multiple-choice 
 - **Git & GitHub** - Version control
 - **GitHub Pages** - Free hosting
 
+## 📚 **Documentation**
+
+Detailed project documentation and presentation slides are available:
+
+- [📄 Project Documentation (PDF)](docs/QuizSpark_Final_Project.pdf)
+- [📊 Presentation Slides (PPTX)](docs/QuizSpark_Final_Project.pptx)
+
 ## 📁 **Project Structure**
 
 ## Project Structure
@@ -92,8 +99,8 @@ QuizSparkFIPFinalProject/
 ├── assets/
 │ └── screenshots/ # Project screenshots
 ├── docs/
-│ ├── documentation.pdf # Project documentation
-│ └── presentation.pdf # Presentation slides
+│   ├── QuizSpark_Final_Project.pdf # Project documentation
+│   └── QuizSpark_Final_Project.pptx # Presentation slides
 └── README.md # This file
 ```
 
