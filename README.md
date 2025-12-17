@@ -4,7 +4,7 @@
 [View Live Project](https://quizsparkfipfinalproject.netlify.app)
 
 <div align="center">
-  <img src="assets/screenshots/Screenshot from 2025-12-16 16-26-13.png" width="100%" alt="QuizSpark Home">
+  <img src="assets/screenshots/homepage.png" width="100%" alt="QuizSpark Home">
 </div>
 
 ## 📋 Project Overview
