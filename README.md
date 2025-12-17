@@ -1,7 +1,11 @@
 # QuizSpark - Student Quiz System 🎯
 
 ## 🚀 Live Demo
-[View Live Project](https://yourusername.github.io/QuizSpark-Final-Project/)
+[View Live Project](https://quizsparkfipfinalproject.netlify.app)
+
+<div align="center">
+  <img src="assets/screenshots/Screenshot from 2025-12-16 16-26-13.png" width="100%" alt="QuizSpark Home">
+</div>
 
 ## 📋 Project Overview
 QuizSpark is an interactive quiz web application designed for students to practice self-assessment through multiple-choice questions. The app mimics Distinction's gamified quiz approach, reinforcing logic building and event-driven programming.
@@ -92,6 +96,27 @@ QuizSparkFIPFinalProject/
 │ └── presentation.pdf # Presentation slides
 └── README.md # This file
 ```
+
+
+## 📸 **User Interface Tour**
+
+Explore the application flow from login to leaderboard.
+
+<div align="center">
+  <img src="assets/screenshots/Screenshot from 2025-12-16 16-26-19.png" width="45%" alt="Screenshot 2">
+  <img src="assets/screenshots/Screenshot from 2025-12-16 16-26-25.png" width="45%" alt="Screenshot 3">
+  <img src="assets/screenshots/Screenshot from 2025-12-16 16-26-30.png" width="45%" alt="Screenshot 4">
+  <img src="assets/screenshots/Screenshot from 2025-12-16 16-26-42.png" width="45%" alt="Screenshot 5">
+  <img src="assets/screenshots/Screenshot from 2025-12-16 16-26-59.png" width="45%" alt="Screenshot 6">
+  <img src="assets/screenshots/Screenshot from 2025-12-16 16-41-50.png" width="45%" alt="Screenshot 7">
+  <img src="assets/screenshots/Screenshot from 2025-12-16 16-41-56.png" width="45%" alt="Screenshot 8">
+  <img src="assets/screenshots/Screenshot from 2025-12-16 16-42-26.png" width="45%" alt="Screenshot 9">
+  <img src="assets/screenshots/Screenshot from 2025-12-16 16-42-33.png" width="45%" alt="Screenshot 10">
+  <img src="assets/screenshots/Screenshot from 2025-12-16 16-42-39.png" width="45%" alt="Screenshot 11">
+  <img src="assets/screenshots/Screenshot from 2025-12-16 16-42-43.png" width="45%" alt="Screenshot 12">
+  <img src="assets/screenshots/Screenshot from 2025-12-16 16-42-57.png" width="45%" alt="Screenshot 13">
+  <img src="assets/screenshots/Screenshot from 2025-12-16 16-43-03.png" width="45%" alt="Screenshot 14">
+</div>
 
 
 ## 🎯 **Learning Outcomes Demonstrated**
